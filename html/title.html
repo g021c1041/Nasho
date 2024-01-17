@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/title.css">
+    <title>社長になろう</title>
+</head>
+<body>
+    <h1 class="center">あなたの会社名を決めましょう！</h1>
+    <p id="pl1" class="center">player1</p>
+    <p id="pl2" class="center">player2</p>
+    <p id="pl3" class="center">player3</p>
+    <p id="pl4" class="center">player4</p>
+    <!-- <div class="center"><label class="test">名前を入力してください</label></div> -->
+    <div class="name-text center"><input type="text" required class="center"><button id="in-button" class="button">参加</button></div>
+    <div class="center"><button id="ok-button" class="button">準備完了</button><button id="start-button" class="button">開始</button></div>
+    <script>
+        $(".name-button").click(function(){
+            var name1=$(".name-text input").val();
+            var name2=$(".name-text2 input").val();
+            if(name1==""||name2==""){
+                $(".test").show();
+            }else{
+                localStorage.setItem("name1",name1);
+                localStorage.setItem("name2",name2);
+                var random=Math.floor(Math.random()*2);
+                if(random==0){
+                    window.location.href="./game1.html";
+                }else{
+                    window.location.href="./game2.html";     
+                }
+            }
+        })
+    </script>
+</body>

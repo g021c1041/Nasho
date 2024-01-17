@@ -1,0 +1,138 @@
+.hide{
+    display: none;
+}
+.user-box{
+    display:flex;
+}
+.name2{
+    padding: 10px;
+    margin:10px;
+    border:solid black;
+    border-radius:10px;
+    color: tomato;
+    font-size: 30px;
+}
+.name1{
+    padding: 6px;
+    margin:auto 6px auto auto;
+    border:solid black 0.6px;
+    border-radius:6px;
+    color: tomato;
+    font-size: 18px;
+    height: fit-content;
+}
+.user-contents{
+    margin: auto 0;
+}
+.contents2 .contents{
+    font-size: 20px;
+    margin:0;
+}
+.contents1 .contents{
+    font-size: 12px;
+    margin:0;
+}
+.date{
+    color: tomato;
+    font-size: 45px;
+    margin:0 10px;
+}
+.work-button{
+    display: flex;
+    justify-content:space-around;
+    height: 300px;
+}
+.work-button div,.hand-card div{
+    text-align: center;
+    width: 100%;
+}
+.work-button .button{
+    width: 100%;
+    max-width: 90px;
+    min-height:120px;
+    font-size:20px;
+    font-weight: 600;
+    border: 0px;
+    border-radius:20px;
+    background-color: rgb(156, 156, 230);
+    }
+.work-button button:active{
+    background-color: blue;
+}    
+.hand-card .button{
+    width: 100%;
+    max-width: 90px;
+    min-height:120px;
+    font-size:18px;
+    font-weight: 600;
+    border: 0px;
+    border-radius:20px;
+    background-color: rgb(173, 230, 156);
+    margin-top: 10px;
+}
+.hand-card .button:active{
+    background-color: green;
+}
+.cost,.value,.contents{
+    margin: 0;
+}
+.cost{
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.value{
+    content: "";
+    display: block;
+    border-top: 1px solid #000;
+    width: 100%;
+}
+.use{
+    border: solid 0.5px;
+    border-radius: 5px;
+    }
+.work-button p,.hand-card p{
+    margin: 0;
+}
+.button-use{
+    display: flex;
+}
+.button-use button{
+    width:50%;
+}
+.p{
+        background-color: bisque;
+    width:100%;
+    border: none;
+    border-radius:20px;
+    padding:10px 0;
+    font-size: 13px;
+    margin: 0;
+}
+.hand{
+    margin-top: 100px;
+    background-color: rgb(150, 150, 150);
+}
+.hand-card{
+height: 200px;
+    display: flex;
+    justify-content:space-around;
+    }
+.clear{
+    height: 50px;
+    width: 50px;
+}
+.build-button{
+    display: flex;
+    justify-content:space-around;
+}
+.build-button button{
+    width: 100%;
+}
+.error{
+    color: red;
+    margin: 0;
+}

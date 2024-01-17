@@ -1,0 +1,31 @@
+@font-face{
+    font-family: "myFont";
+    src:url("../fonts/AkazukinPOP.otf") format("opentype")
+}
+body{
+    background-color: rgb(156, 255, 255);
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    margin-top: 100px;
+    color: rgb(47, 102, 221);
+    text-shadow: 5px 5px 5px black;
+    font-size: 120px;
+    font-family: "myFont";
+}
+.button{
+    background-color: rgb(128, 128, 226);
+    width: 150px;
+    height: 70px;
+    border-radius: 15px;
+    border: 0px;
+    font-size:30px;
+    font-weight: 600;
+    margin:30px 0;
+}
+.button:active{
+    background-color: blue;
+}

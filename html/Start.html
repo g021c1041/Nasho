@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/Start.css">
+        <title>社長になろう</title>
+    </head>
+    <body>
+        <h1 class="title center">社長になろう</h1>
+        <div class="center"><button id="helpButton" class="button">遊び方</button></div>
+        <div class="center"><button id="startButton" class="button">スタート</button></div>
+
+        <script>
+            $("#startButton").click(function(){
+                window.location.href="./title.html";
+            })
+            $("#helpButton").click(function(){
+                window.location.href="./help.html";
+            })
+        </script>
+    </body>
+</html>

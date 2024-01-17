@@ -1,0 +1,32 @@
+body{
+    margin-top: 50px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    color: cadetblue;
+    text-shadow: 2px 2px 4px black;
+    font-size: 55px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.container p {
+    margin: 20px 0;
+    width: 50%;
+    text-align: center;
+    font-size: 40px;
+    box-sizing: border-box;
+}
+.rank1{
+    color: gold;
+    font-weight: 1000;
+}
+.rank2{
+    color: blue;
+    font-weight: 700;
+}

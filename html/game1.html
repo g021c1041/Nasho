@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/game1.css">
+    <title>社長になろう</title>
+</head>
+<body>
+    <div class="user-box">
+        <p class="name1"></p>
+        <div class="user-contents contents1">
+            <p class="contents">&emsp;資産：￥<span>1000</span></p>
+            <p class="contents employee">社員数：<span class="employee1"></span><span class="employee2"></span><span class="employee3"></span><span class="employee4"></span><span class="employee5"></span></p> 
+        </div>
+        <p class="name2"></p>
+        <div class="user-contents contents2">
+            <p class="contents">&emsp;資産：￥<span>1000</span></p>
+            <p class="contents employee">社員数：<span class="employee1"></span><span class="employee2"></span><span class="employee3"></span><span class="employee4"></span><span class="employee5"></span></p> 
+        </div>
+    </div>
+    <h1 class="date"><span class="date-data"></span>月</h1>
+    <div class="work-button">
+        <div>
+            <button class="work-button1 button">採石場</button>
+            <div class="use use1 hide">
+                <p>採石場を利用しますか？</p>
+                <div class="button-use">
+                    <button class="cancel">キャンセル</button>
+                    <button class="process1">はい</button>
+                </div>
+            </div>
+            <p class="button1-text p hide">カードを一枚引く。スタートプレイヤーになる。</p>
+        </div>
+        <div>   
+            <button class="work-button2 button">鉱山</button>
+            <div class="use use2 hide">
+                <p>鉱山を利用しますか？</p>
+                <div class="button-use">
+                    <button class="cancel">キャンセル</button>
+                    <button class="process2">はい</button>
+                </div>
+            </div>
+            <p class="button2-text p hide">カードを一枚引く。複数使用可</p>
+        </div>
+        <div>
+            <button class="work-button3 button">学校</button>
+            <div class="use use3 hide">
+                <p>学校を利用しますか？</p>
+                <div class="button-use">
+                    <button class="cancel">キャンセル</button>
+                    <button class="process3">はい</button>
+                </div>
+            </div>
+            <p class="button3-text p hide">従業員を一人増やす。</p>
+        </div>
+        <div>
+            <button class="work-button4 button">大工</button>
+            <div class="use use4 hide">
+                <p>大工を利用しますか？</p>
+                <div class="button-use">
+                    <button class="cancel">キャンセル</button>
+                    <button class="process4">はい</button>
+                </div>
+            </div>
+            <p class="button4-text p hide">建物を一つ作る</p>
+        </div>
+    </div>
+    <button class="clear"></button>
+    <div class="stage">
+        <button class="stage-button hide"></button>
+    </div>
+    <div class="hand">
+        <div>
+            <p class="build-text1 hide">建築するカードを選択してください</p>
+            <p class="build-text2 hide">コストとして、捨てるカードを選択してください</p>
+        </div>
+        <div class="hand-card">
+            <div class="card hide">
+                <button class="button">
+                    <p class="cost"></p>
+                    <p class="contents"></p>
+                    <p class="value"></p>
+                </button>
+                <p class="p hide"></p>
+            </div>
+        </div>
+        <p class="error hide">コストの枚数が異なります</p>
+        <div class="build-button">
+            <button class="build-button1 hide">戻る</button>
+            <button class="build-button2 hide">決定</button>
+        </div>
+    </div>
+    <script src="../js/game1.js"></script>
+</body>
