@@ -11,15 +11,15 @@
     <p id="pl2" class="center">player2</p>
     <p id="pl3" class="center">player3</p>
     <p id="pl4" class="center">player4</p>
-    <!-- <div class="center"><label class="test">名前を入力してください</label></div> -->
+    <div class="center"><label id="error">名前を入力してください</label></div>
     <div class="name-text center"><input type="text" required class="center"><button id="in-button" class="button">参加</button></div>
     <div class="center"><button id="ok-button" class="button">準備完了</button><button id="start-button" class="button">開始</button></div>
     <script>
-        $(".name-button").click(function(){
-            var name1=$(".name-text input").val();
-            var name2=$(".name-text2 input").val();
-            if(name1==""||name2==""){
-                $(".test").show();
+        $("#in-button").click(function(){
+            var name=$("input").val();
+            // var nameL=name.length;
+            if(name==""||name.length>=10){
+                $("#error").show();
             }else{
                 localStorage.setItem("name1",name1);
                 localStorage.setItem("name2",name2);

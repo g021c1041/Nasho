@@ -1,6 +1,6 @@
 
 h1{
-    margin-top: 100px;
+    margin: 100px 0;
     color: rgb(255, 0, 0);
     text-shadow: 3px 3px 3px black;
     font-size: 40px;
@@ -18,7 +18,10 @@ p{
     border-radius: 30px;
     font-size: 40px;
     font-weight:600;
-
+    display: none;
+}
+#error{
+    display: none;
 }
 .button{
     background-color: rgb(253, 143, 143);
